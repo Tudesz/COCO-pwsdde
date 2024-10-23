@@ -7,7 +7,9 @@ warning off backtrace
 % Dependencies
 addpath(genpath('_toolbox'))
 addpath('pwsdde cont','plot tools');
-addpath('C:\Users\Tudo\Documents\MATLAB\COCO');
+
+% Initialize COCO
+addpath('<COCO_dir>'); % location of COCO installation
 startup;
 
 % Default plot options
